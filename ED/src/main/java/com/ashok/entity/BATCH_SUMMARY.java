@@ -1,6 +1,7 @@
 package com.ashok.entity;
 
 import javax.persistence.Entity;
+import javax.persistence.Id;
 
 import lombok.Data;
 
@@ -9,6 +10,7 @@ import lombok.Data;
 public class BATCH_SUMMARY {
 	
 	
+	@Id
 	private Integer summaryId;
 	
 	private String batchName;

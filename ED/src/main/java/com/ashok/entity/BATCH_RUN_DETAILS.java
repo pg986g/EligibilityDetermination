@@ -1,6 +1,8 @@
 package com.ashok.entity;
 
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
 
 import lombok.Data;
 
@@ -8,6 +10,8 @@ import lombok.Data;
 @Entity
 public class BATCH_RUN_DETAILS {
 
+	@Id
+	@GeneratedValue
 	private Integer batchRunSequence;
 	
 	private String batchName;

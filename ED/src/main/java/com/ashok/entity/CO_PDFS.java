@@ -1,6 +1,7 @@
 package com.ashok.entity;
 
 import javax.persistence.Entity;
+import javax.persistence.Id;
 import javax.print.DocFlavor.BYTE_ARRAY;
 
 import lombok.Data;
@@ -9,6 +10,7 @@ import lombok.Data;
 @Entity
 public class CO_PDFS {
 
+	@Id
 	private Integer coPdfId;
 	
 	private String planStatus;
